@@ -2,15 +2,15 @@ import { View, Text } from "react-native";
 import React from "react";
 import { Link } from "react-router-native";
 
-const Intro = () => {
+const SignIn = () => {
   return (
     <View>
-      <Text>Esta es la pagina de intro</Text>
-      <Link to="/signin">
-        <Text>to signin</Text>
+      <Text>SignIn</Text>
+      <Link to="/">
+        <Text>to intro</Text>
       </Link>
     </View>
   );
 };
 
-export default Intro;
+export default SignIn;
