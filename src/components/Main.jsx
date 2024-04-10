@@ -4,6 +4,7 @@ import { StatusBar } from "expo-status-bar";
 import { Route, Routes } from "react-router-native";
 import Intro from "./Intro";
 import SignIn from "./SignIn";
+import Login from "./Login";
 
 const Main = () => {
   return (
@@ -12,6 +13,7 @@ const Main = () => {
       <Routes>
         <Route path="/" element={<Intro />} />
         <Route path="/signin" element={<SignIn />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </View>
   );
